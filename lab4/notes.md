@@ -14,3 +14,15 @@ Any files or directories matching the patterns in `.gitignore` (such as `.venv/`
 
 ## Question 5
 `.gitignore` must be committed to the repository rather than ignored. Committing it ensures that every collaborator who clones or works on the repository shares the same rules for ignoring unwanted files.
+
+## Question 6
+`README.md` moved from "Untracked files" to "Changes to be committed". In the three-places model, it moved from the Working Tree into the Staging Area (Index).
+
+## Question 7
+Git printed the commit summary with the branch name, short commit hash, commit message, and file change statistics showing files changed and insertions created.
+
+## Question 8
+The first seven characters are called the short commit hash (or SHA-1 hash). They serve as a unique identifier for that specific snapshot/commit in Git's history.
+
+## Question 9
+The four steps of the Git loop are: 1) Edit/modify files in the working directory, 2) Check the state with `git status`, 3) Stage changes using `git add`, and 4) Commit the snapshot with `git commit -m "<message>"`.
