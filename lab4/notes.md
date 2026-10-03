@@ -26,3 +26,18 @@ The first seven characters are called the short commit hash (or SHA-1 hash). The
 
 ## Question 9
 The four steps of the Git loop are: 1) Edit/modify files in the working directory, 2) Check the state with `git status`, 3) Stage changes using `git add`, and 4) Commit the snapshot with `git commit -m "<message>"`.
+
+## Question 10
+`README.md` is standard convention across software development and Git platforms. GitHub automatically renders it directly on the repository's main page as the entry point and primary overview of the project.
+
+## Question 11
+`gh auth login` authenticates via OAuth and sets up Git's credential helper. It securely stores an access token so you do not need to enter your personal password every time you push.
+
+## Question 12
+`README.md` is displayed on the front page. GitHub is built to automatically parse and render top-level markdown README files into formatted HTML for visitors.
+
+## Question 13
+No, running `git push` did not change the local commit history at all. It simply uploaded the commits and updated the remote tracking branch `origin/main` to match `main`.
+
+## Question 14
+A private repository exists securely backed up on GitHub's cloud servers, accessible to you and authorized collaborators (like your TAs). A repository that doesn't exist on GitHub only lives locally on your computer, with no cloud backup, no remote version history, and no way for collaborators to review it.
